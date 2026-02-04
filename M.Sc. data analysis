@@ -1,0 +1,25 @@
+# M.Sc. Thesis: Impact of Sorghum Commercialization on Multidimensional Poverty
+This repository contains the data analysis code for my Master of Science thesis in Agricultural Economics at the University of Gondar.
+
+## Project Overview
+- **Thesis Title:** Impact of Sorghum Commercialization on Households' Multidimensional Poverty in Tegede District, Northwest Ethiopia
+- **Objective:** To analyze the effect of smallholder farmers sorghum COMMERCIALIZATION on multidimensional poverty indices.
+- **Key Methods:** Endogeneous Switching Regression(ESR), Multidimensional Poverty Index (MPI) construction, descriptive and inferential statistics.
+
+## Repository Structure
+- `/data_cleaning/`: STATA do-files for data import, merging, and cleaning of household survey data.
+- `/analysis/`: Do-files for generating descriptive statistics, running ESR models, and constructing MPI.
+- `/output/`: Generated tables and figures used in the thesis (e.g. regression results).
+
+## Technical Skills Demonstrated
+- **Software:** Advanced STATA programming for econometric analysis.
+- **Methods:** Primary survey data management, causal inference using PSM, composite index creation.
+- **Workflow:** Organized, documented, and reproducible research code.
+
+## How to Use This Code
+1.  Open the `.do` files in STATA.
+2.  Update the file paths in the first few lines of each script to point to your local data directory.
+3.  Run the scripts sequentially from the `data_cleaning` folder to the `analysis` folder.
+
+## About the Author
+I am a Lectuer and Researcher in Agricultural Economics with expertise in survey design, econometric analysis, and research focused on smallholder farmer livelihoods. This work forms part of my application for the Doctoral Position in Food Waste Supply Chains at ETH Zurich (FLOWERS project).
